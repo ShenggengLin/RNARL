@@ -100,7 +100,7 @@ torchrun --nproc_per_node=2 --master_port=49514 actor_train.py
 
 
 
-### 1. Reward Model Training (`actor_train.py`)
+### 2. Reward Model Training (`actor_train.py`)
 
 **Function**:  
 Trains a quality prediction model for mRNA sequences evaluating:
@@ -123,7 +123,6 @@ ATGGTG...,300,-125.5,0.87
 
 ```
 torchrun --nproc_per_node=2 --master_port=49516 reward_train.py
-
 ```
 
 **Key Parameters**
@@ -135,7 +134,6 @@ torchrun --nproc_per_node=2 --master_port=49516 reward_train.py
     'target_cai': 0.8,       # CAI optimization target
     'ortho_weight': 1000.0   # MoE orthogonal loss weight
 }
-
 ```
 **Output**
 
@@ -164,15 +162,12 @@ Performs policy optimization using:
     'kl_coefficient': 0.01,  # KL divergence penalty
     'policy_update_interval': 50  # Old policy sync frequency
 }
-
-
 ```
 
 **Usage**
 
 ```
 torchrun --nproc_per_node=2 --master_port=49515 grpo_train.py
-
 ```
 
 **Output**
