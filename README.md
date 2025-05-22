@@ -182,7 +182,10 @@ torchrun --nproc_per_node=2 --master_port=49515 grpo_train.py
 
 ## Workflow Diagram
 
-<center>![image](https://github.com/ShenggengLin/RNARL/blob/main/pictures/workflowDiagram.png)
+<div align="center">
+  <img src="https://github.com/ShenggengLin/RNARL/raw/main/pictures/workflowDiagram.png" alt="Workflow Diagram" width="70%"/>
+</div>
+
 
 ##  Hardware Recommendations 
 
