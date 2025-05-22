@@ -182,13 +182,7 @@ torchrun --nproc_per_node=2 --master_port=49515 grpo_train.py
 
 ## Workflow Diagram
 
-graph TD
-    A[Protein Sequences] --> B[Actor Model]
-    B --> C[mRNA Candidates]
-    C --> D[Reward Model]
-    D --> E[Stability/Efficiency Scores]
-    E --> F[GRPO Optimization]
-    F --> B
+![image](https://github.com/ShenggengLin/RNARL/blob/main/pictures/workflowDiagram.png)
 
 ##  Hardware Recommendations 
 
