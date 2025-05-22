@@ -181,18 +181,6 @@ torchrun --nproc_per_node=2 --master_port=49515 grpo_train.py
   <img src="https://github.com/ShenggengLin/RNARL/raw/main/pictures/workflowDiagram.png" alt="Workflow Diagram" width="70%"/>
 </div>
 
-
-##  Hardware Recommendations 
-
-| Component |  Recommended       |
-|-----------|-------------------|
-| GPUs      |  2x A100 80GB      |
-| CPU       |  32 cores          |
-| Memory    |  256GB DDR4        |
-| Storage   |  RAID0 NVMe        |
-
-
-
 ## Configuration
 
 Edit training parameters in each script's `Config` class:
@@ -219,6 +207,24 @@ example_data/
 ├── example_val.csv
 └── example_test.csv
 ```
+
+##  Hardware Recommendations 
+
+| Component |  Recommended       |
+|-----------|-------------------|
+| GPUs      |  2x A100 80GB      |
+| CPU       |  32 cores          |
+| Memory    |  256GB DDR4        |
+| Storage   |  RAID0 NVMe        |
+
+
+
+## Web Interface
+
+To enhance accessibility and promote the use of the RNARL framework, a user-friendly web interface was developed and hosted on [Google Colab](https://colab.research.google.com/drive/1Z_t_Lt9CjqA0aygoNcdRzrThF1MOGBRb). This interface is designed to require no environment setup or programming knowledge, enabling users to readily input protein sequences and obtain generated and optimized RNA sequences. The platform supports both the optimization of RNA sequences corresponding to a single protein and the high-throughput optimization for multiple proteins simultaneously through the upload of CSV files. Additionally, users can select different species or RNA types to perform targeted optimization based on their specific needs.
+
+
+
 
 ## Citation
 
