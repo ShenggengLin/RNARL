@@ -2,7 +2,10 @@
 # RNARL: RNA Design via Reinforcement Learning
 
 
-![image](https://github.com/ShenggengLin/RNARL/raw/main/pictures/logo.png)
+<div align="center">
+  <img src="https://github.com/ShenggengLin/RNARL/raw/main/pictures/logo.png" alt="logo"/>
+</div>
+
 A PyTorch implementation of reinforcement learning-based RNA design with MoE architecture and ESM-2 integration.
 ## Features
 
