@@ -7,6 +7,13 @@
 </div>
 
 A PyTorch implementation of reinforcement learning-based RNA design with MoE architecture and ESM-2 integration.
+
+<p align="center">
+  <a href="https://github.com/ShenggengLin/RNARL"><img src="https://img.shields.io/badge/GitHub-Code-4A90E2?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://colab.research.google.com/drive/1Z_t_Lt9CjqA0aygoNcdRzrThF1MOGBRb"><img src="https://img.shields.io/badge/Colab-Notebook-e2006a?style=for-the-badge&logo=googlecolab&logoColor=white" alt="Colab"></a>
+
+</p>
+
 ## Features
 
 - 🧬 Transformer-based architecture with Mixture-of-Experts (MoE)
